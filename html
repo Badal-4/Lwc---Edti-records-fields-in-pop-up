@@ -1,0 +1,9 @@
+<template>
+  <lightning-modal title="Edit Record">
+    <lightning-record-edit-form record-id={recordId} object-api-name={objectApiName} onsubmit={handleSubmit}>
+      <lightning-input-field field-name="Field1__c"></lightning-input-field>
+      <lightning-input-field field-name="Field2__c"></lightning-input-field>
+      <lightning-button variant="brand" type="submit" label="Save"></lightning-button>
+    </lightning-record-edit-form>
+  </lightning-modal>
+</template>
